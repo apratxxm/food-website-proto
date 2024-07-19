@@ -8,6 +8,7 @@
 
 body{
     height: 4089px;
+    position: relative;
 }
 .content{
     padding-top: 226px;
@@ -128,6 +129,16 @@ body{
     gap:0px
 }
 
+.lorem{
+    color: #404040;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+    width: 712px;
+}
+
 .btn-top{
     display: flex;
     width: 622px;
@@ -161,4 +172,28 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    color: #202020;
+    background-color: #FC8019;
+    width: 100%;
+    height: 313px;
 }
