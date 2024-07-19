@@ -93,6 +93,8 @@ body{
     padding-left: 200px;
     padding-right: 200px;
     display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 
 }
 
@@ -101,8 +103,8 @@ body{
 }
 
 .content-left{
-    margin-right: 60px;
-    
+    margin-right: 45px;
+    width: 790px;    
 }
 .main-text{
     color: #202020;
@@ -217,10 +219,11 @@ body{
     display: inline-block;
 }
 
-.parent-grid{
-    display: grid;
-    grid-template-columns: 310px 310px;
-
+.parent-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 620px;
+    justify-content: center;
 } 
 
 .card{
@@ -309,10 +312,48 @@ body{
     padding-top: 10px;
 }
 
+.sbr{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color:#FC8019;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
 
+.left{
+    display: flex;
+    width: 622px;
+    padding: 16px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
-
-
+.right{
+    display: flex;
+    padding: 16px 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #202020;
+    color:white;
+}
 
 
 
